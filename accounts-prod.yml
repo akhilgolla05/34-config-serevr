@@ -1,0 +1,25 @@
+#added property at runtime - after starting the application
+build:
+  version: 1.0.0
+
+accounts:
+  message: "Welcome to Accounts prod MS"
+  contactDetails:
+    name: "MUNNA - prod"
+    email: "munna@gmail.com"
+  onCallSupport:
+    - (333) 897 7494
+    - (444) 749 8484
+
+
+    
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    
+    #overriding defaultZone(magic port : 8761) for eureka-server
+    service-url:
+      defaultZone: http://localhost:9002/eureka/
+  instance:
+    prefer-ip-address: true
