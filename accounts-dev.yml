@@ -1,0 +1,10 @@
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    
+    #overriding defaultZone(magic port : 8761) for eureka-server
+    service-url:
+      defaultZone: http://localhost:9002/eureka/
+  instance:
+    prefer-ip-address: true
