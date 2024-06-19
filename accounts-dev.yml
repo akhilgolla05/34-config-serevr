@@ -1,4 +1,4 @@
-
+#added property at runtime - after starting the application
 build:
   version: 2.0.0
 
