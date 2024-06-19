@@ -2,6 +2,17 @@
 build:
   version: 2.0.0
 
+accounts:
+  message: "Welcome to Accounts MS"
+  contactDetails:
+    name: "MUNNA BHAI"
+    email: "munna@gmail.com"
+  onCallSupport:
+    - (333) 897 7494
+    - (444) 749 8484
+
+
+    
 eureka:
   client:
     fetch-registry: true
