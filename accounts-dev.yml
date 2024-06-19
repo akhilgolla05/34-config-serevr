@@ -3,9 +3,9 @@ build:
   version: 2.0.0
 
 accounts:
-  message: "Welcome to Accounts MS"
+  message: "Welcome to Accounts dev MS"
   contactDetails:
-    name: "MUNNA BHAI"
+    name: "munna-develper"
     email: "munna@gmail.com"
   onCallSupport:
     - (333) 897 7494
